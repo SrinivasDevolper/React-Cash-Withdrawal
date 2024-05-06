@@ -1,0 +1,18 @@
+.option-cont {
+  border: 2px solid #786f8d;
+  background-color: #372a57;
+  width: 45%;
+  list-style: none;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+}
+.option-cont p {
+  padding: 5px;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.option-cont .option-value {
+  color: #c4c4c4;
+}

@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #150b3e;
+  height: 500px;
+  width: 500px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+.heading-para {
+  background-color: #c7d2fe;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  color: #7c3aed;
+  font-size: 20px;
+}
+.main-heading {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #d4d2db;
+  font-family: 'Roboto';
+}
+.rupees-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.rupees-cont h1 {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.rupees-cont .cash {
+  color: #c4c4c4;
+  font-size: 25px;
+}
+.rupees-cont p {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 15px;
+}
+.Withdraw-cont {
+  padding: 10px;
+}
+.Withdraw-heading {
+  color: #c4c4c4;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.Withdraw-cont p {
+  color: #585076;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  font-family: 'Roboto';
+}
+.ul-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
